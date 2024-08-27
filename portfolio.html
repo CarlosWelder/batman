@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Portfólio</a>
+        <i class='bx bx-menu menu-icon' onclick="toggleMenu()"></i>
+        <div class="nav-menu">
+            <a href="index.html">Sobre</a>
+            <a href="academica.html">Formação acadêmica</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </header>
+
+    <section class="portfolio" id="portfolio">
+        <h2>Últimos <span>Projetos</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/1.png" alt="Portfólio 1">
+                <div class="portfolio-layer">
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/3.png" alt="Portfólio 1">
+                <div class="portfolio-layer">
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/5.png" alt="Portfólio 1">
+                <div class="portfolio-layer">
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/2.png" alt="Portfólio 1">
+                <div class="portfolio-layer">
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/4.png" alt="Portfólio 1">
+                <div class="portfolio-layer">
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/6.png" alt="Portfólio 1">
+                <div class="portfolio-layer">
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 by Welder, All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Portfólio</a>
+        <i class='bx bx-menu menu-icon' onclick="toggleMenu()"></i>
+        <div class="nav-menu">
+            <a href="index.html">Sobre</a>
+            <a href="academica.html">Formação acadêmica</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </header>
+    <section class="contato">
+        <h2>Meu <span>Contato</span></h2>
+        <form action="">
+            <div class="input-box">
+                <input type="text" placeholder="Nome Completo" required>
+                <input type="email" placeholder="E-mail" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Número de Telefone" required>
+                <input type="text" placeholder="Assunto" required>
+            </div>
+            <textarea cols="30" rows="10" placeholder="Mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2024 by Welder, All Rights Reserved.</p>
+    </footer>
+    <script>
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
